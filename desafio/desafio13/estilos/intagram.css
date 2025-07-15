@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+img{
+    width: 94vw;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    display: block;
+}
