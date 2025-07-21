@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wecome</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(93, 107, 107);
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        div.boxPrincipal{
+            width: 70vw;
+            height: 600px;
+            background-color: rgb(167, 198, 201);
+            color: azure;
+            text-align: center;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: box-shadow 0.3s ease;
+            height: 100vh;
+            text-align: center;
+            
+        }
+
+        div.boxPrincipal:hover{
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        #txtHora{
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            width: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxPrincipal">
+        <h1>Bem vindo!</h1>
+        <p>Digite a hora:</p>
+        <input type="number" name="txtHora" id="txtHora">
+        <input type="button" value="submit">
+    </div>
+    
+</body>
+</html>
